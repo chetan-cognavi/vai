@@ -120,7 +120,7 @@ def main():
 
     st.markdown("---")
 
-    st.header("Generated Questions:")
+    # st.header("Generated Questions:")
     if st.session_state.jd_questions:
         st.header("Job Description Based Technical Interview Questions:")
         for i, question in enumerate(st.session_state.jd_questions, start=1):
